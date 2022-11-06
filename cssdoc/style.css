@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'calibri';
+    color: white;
+}
+
+body{
+    background: linear-gradient(-30deg, rgb(0, 0, 0, 1) 0%, rgb(82, 67, 1) 35%, rgb(240, 237, 88) 100%);
+    overflow: hidden;
+}
+
+h1, p{
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+}
+
+.container .row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.container .item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.container .item img{
+    width: 700px;
+    height: 400px;
+}
